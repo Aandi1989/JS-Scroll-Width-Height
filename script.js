@@ -8,3 +8,12 @@ const mainElementHeight = mainElement.clientHeight;
 
 console.log(mainElementWidth)
 console.log(mainElementHeight)
+
+// -------------------
+
+// Ширина и высота окна вместе с полосами прокрутки
+const windowWidth = window.innerWidth;
+const windowHeight = window.innerHeight;
+
+console.log(windowWidth)
+console.log(windowHeight)
