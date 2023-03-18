@@ -32,3 +32,12 @@ let scrollHeight = Math.max(
 )
 console.log(scrollWidth)
 console.log(scrollHeight)
+
+
+// Получить кол-во прокрученных пикселей 
+// только для чтения
+const windowScrollTop = window.pageYOffset;
+const windowScrollLeft = window.pageXOffset;
+
+console.log(windowScrollTop)
+console.log(windowScrollLeft)
