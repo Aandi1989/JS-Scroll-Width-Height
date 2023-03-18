@@ -36,8 +36,9 @@ console.log(scrollHeight)
 
 // Получить кол-во прокрученных пикселей 
 // только для чтения
-const windowScrollTop = window.pageYOffset;
-const windowScrollLeft = window.pageXOffset;
+let windowScrollTop = window.pageYOffset;
+let windowScrollLeft = window.pageXOffset;
 
-console.log(windowScrollTop)
+console.log(windowScrollTop) // Может не всегда выводить верное значение в консоль из-за прыжка скрола при обновлении страницы
 console.log(windowScrollLeft)
+
