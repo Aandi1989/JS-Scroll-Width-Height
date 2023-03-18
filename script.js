@@ -17,3 +17,18 @@ const windowHeight = window.innerHeight;
 
 console.log(windowWidth)
 console.log(windowHeight)
+
+// Ширина и высота документа включая прокрученную часть
+
+let scrollWidth = Math.max(
+    document.body.scrollWidth, document.documentElement.scrollWidth,
+    document.body.offsetWidth, document.documentElement.offsetWidth,
+    document.body.clientWidth, document.documentElement.clientWidth
+);
+let scrollHeight = Math.max(
+    document.body.scrollHeight, document.documentElement.scrollHeight,
+    document.body.offsetHeight, document.documentElement.offsetHeight,
+    document.body.clientHeight, document.documentElement.clientHeight
+)
+console.log(scrollWidth)
+console.log(scrollHeight)
