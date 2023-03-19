@@ -199,3 +199,17 @@ console.log(elementClientHeight);
 // общая ширина (offsetWidth) - рамка слева - рамка справа - скролл
 // 500 - 20 - 20 - 17 = 443
 */
+
+
+/*
+// Размеры объекта включающие в себя
+// прокрученную (которую не видно) часть.
+// В остальном работают как clientWidth/clientHeight,
+// scrollWidth и scrollHeight
+
+const elementScrollWidth = block.scrollWidth;
+const elementScrollHeight = block.scrollHeight;
+
+console.log(elementScrollWidth);
+console.log(elementScrollHeight);
+*/
