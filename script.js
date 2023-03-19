@@ -96,3 +96,17 @@ function setScrollIntoViewOptions(top) {
 }
 //Опции не работают в Safari
 
+
+
+// Запретить прокрутку
+function setEnableDisableScroll() {
+	//document.body.style.overflow = "hidden";
+	document.body.classList.toggle('scroll-lock');
+}
+
+/*
+Для прокрутки страницы из JavaScript её DOM должен
+быть полностью построен.
+Например, если мы попытаемся прокрутить страницу
+из скрипта в <head>, это не сработает.
+*/
