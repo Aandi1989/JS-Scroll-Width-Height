@@ -183,3 +183,19 @@ const elementClientLeft = block.clientLeft;
 console.log(elementClientTop);
 console.log(elementClientLeft);
 */
+
+
+/*
+// Размеры объекта без
+// рамок и полосы прокрутки
+// clientWidth и clientHeight
+
+const elementClientWidth = block.clientWidth;
+const elementClientHeight = block.clientHeight;
+
+console.log(elementClientWidth);
+console.log(elementClientHeight);
+
+// общая ширина (offsetWidth) - рамка слева - рамка справа - скролл
+// 500 - 20 - 20 - 17 = 443
+*/
