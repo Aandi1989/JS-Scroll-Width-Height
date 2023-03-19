@@ -311,3 +311,11 @@ const getItemTopDocumentCoord = getItemTopCoord + window.pageYOffset;
 console.log(getItemTopCoord);
 console.log(getItemTopDocumentCoord);
 */
+
+/*
+// Получение объекта по координатам
+// document.elementFromPoint(x, y);
+
+const elem = document.elementFromPoint(100, 100);
+console.log(elem);
+*/
