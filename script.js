@@ -42,3 +42,26 @@ let windowScrollLeft = window.pageXOffset;
 console.log(windowScrollTop) // Может не всегда выводить верное значение в консоль из-за прыжка скрола при обновлении страницы
 console.log(windowScrollLeft)
 
+
+// Управление прокруткой страницы 
+// Мутод scrollBy(x,y) прокручивает страницу относительно её текущего положения
+
+function setScrollBy(){
+    window.scrollBy(0,50);
+    const windowScrollTop = window.pageYOffset;
+    console.log(windowScrollTop)
+}
+
+// Метод ScrollTo(pageX, pageY) прокручивает страницу на абсолютные координаты (pageX, pageY).
+// тоже самое что и window.scroll()
+
+function setScrollToOptions(){
+    window.scrollTo({
+        top:500,
+        left:0,
+        //smooth, instant,
+        // либо auto; по умолчанию auto
+        behavior:'smooth'
+    });
+}
+//Опции не работают в Safari
