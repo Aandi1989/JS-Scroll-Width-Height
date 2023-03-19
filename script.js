@@ -110,3 +110,48 @@ function setEnableDisableScroll() {
 Например, если мы попытаемся прокрутить страницу
 из скрипта в <head>, это не сработает.
 */
+
+
+
+// Метрики элементов на странице
+
+// Получаем объект
+//const block = document.querySelector('.lesson__block');
+
+// Позиция объекта
+// Свойства offsetParent, offsetLeft и offsetTop
+
+// Получаем родительский элемент
+// относительно которого позицианирован наш объект
+//const elementOffsetParent = block.offsetParent;
+
+
+/*
+Это будет ближайший предок, который
+удовлетворяет следующим условиям:
+
+1. Является CSS-позиционированным
+	(CSS-свойство position равно absolute, relative, fixed или sticky)
+2. или теги <td>, <th>, <table>,
+3. или <body>.
+*/
+
+//console.log(elementOffsetParent);
+
+/*
+Cитуации, в которых offsetParent равно null:
+1. Для скрытых элементов
+	(с CSS - свойством display: none или когда его нет в документе).
+2. Для элементов <body> и <html>.
+3. Для элементов с position: fixed.
+*/
+
+
+/*
+// Получаем позицию объекта относительно предка (offsetParent)
+const elementOffsetLeft = block.offsetLeft;
+const elementOffsetTop = block.offsetTop;
+
+console.log(elementOffsetLeft);
+console.log(elementOffsetTop);
+*/
