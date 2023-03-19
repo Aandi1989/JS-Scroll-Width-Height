@@ -213,3 +213,36 @@ const elementScrollHeight = block.scrollHeight;
 console.log(elementScrollWidth);
 console.log(elementScrollHeight);
 */
+
+
+//========================================================================================================================================================
+
+/*
+// Размеры прокрученной области
+// scrollLeft и scrollTop
+
+block.scrollTop = 150;
+
+const elementScrollLeft = block.scrollLeft;
+const elementScrollTop = block.scrollTop;
+
+console.log(elementScrollLeft);
+console.log(elementScrollTop);
+*/
+
+//========================================================================================================================================================
+
+/*
+// Методы управления прокруткой
+// scrollBy, scrollTo и scrollIntoView
+// работают и для объекта
+
+function setElementScrollBy() {
+	block.scrollBy({
+		top: 20,
+		left: 0,
+		behavior: "smooth"
+	})
+}*/
+
+//========================================================
