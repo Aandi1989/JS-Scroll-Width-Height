@@ -155,3 +155,19 @@ const elementOffsetTop = block.offsetTop;
 console.log(elementOffsetLeft);
 console.log(elementOffsetTop);
 */
+
+//========================================================================================================================================================
+
+// Общие размеры объекта
+// offsetWidth и offsetHeight
+/*
+// Получаем размеры объекта
+const elementOffsetWidth = block.offsetWidth;
+const elementOffsetHeight = block.offsetHeight;
+
+console.log(elementOffsetWidth);
+console.log(elementOffsetHeight);
+*/
+// Метрики для не показываемых элементов равны нулю.
+
+//========================================================================================================================================================
