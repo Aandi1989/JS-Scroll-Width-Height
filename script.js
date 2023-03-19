@@ -294,3 +294,20 @@ console.log(getItemLeftCoord);
 */
 
 //========================================================================================================================================================
+
+/*
+// Координаты относительно документа
+// getBoundingClientRect
+
+// Получаем объект
+const item = document.querySelector('.lesson__item');
+
+// Получаем конкретную координату относительно окна браузера
+const getItemTopCoord = item.getBoundingClientRect().top;
+
+// Получаем конкретную координату относительно документа
+const getItemTopDocumentCoord = getItemTopCoord + window.pageYOffset;
+
+console.log(getItemTopCoord);
+console.log(getItemTopDocumentCoord);
+*/
